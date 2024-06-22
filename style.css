@@ -1,0 +1,74 @@
+.top-container {
+    display:flex;
+    justify-content:right; 
+    height: 200px; /* Fixed height for the top container */
+}
+google_pic{
+    width: 242px;
+    height: 62px;
+    margin-bottom: 20px;
+}
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 93px; /* Fixed height for the container */
+}
+.search-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding-top: 40px;
+    
+}
+#feelingLucky{
+    align-self: center; /* Center horizontally */
+    width: 128px;
+    height:36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    cursor:pointer;
+  
+}
+#searchButton{
+    align-self: center; /* Center horizontally */
+    width: 128px;
+    height:36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    cursor:pointer;
+}
+#textBox:hover{
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: transparent;
+}
+#textBox{
+    align-self: center;
+    width: 482px;
+    height:50px;
+    overflow: hidden;
+}
+.top-right{
+    height: 20px;
+    cursor:pointer;
+}
+.buttonRight{
+    height: 20px;
+}
+#SButton{
+    text-align:center;
+    height: 30px;
+    justify-content: center;
+    padding-top: 20px;
+}
