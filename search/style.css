@@ -1,0 +1,174 @@
+.top-container {
+    display:flex;
+    justify-content:right; 
+    height: 200px; /* Fixed height for the top container */
+}
+google_pic{
+    width: 242px;
+    height: 62px;
+    margin-bottom: 20px;
+}
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 93px; /* Fixed height for the container */
+}
+.search-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding-top: 40px;
+    
+}
+.searchContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding-top: 0px;
+    
+}
+.feelingLucky{
+    align-self: center; /* Center horizontally */
+    width: 128px;
+    height:36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    cursor:pointer;
+  
+}
+.searchButton{
+    align-self: center; /* Center horizontally */
+    width: 128px;
+    height:36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    cursor:pointer;
+}
+#textBox:hover{
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: transparent;
+ 
+}
+#textBox{
+    align-self: center;
+    width: 482px;
+    height:50px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+#textBox1{
+    align-self: center;
+    width: 482px;
+    height:20px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    border-radius: 1px;
+    font-size: 13px;
+    
+}
+
+
+.top-right{
+    height: 20px;
+    cursor:pointer;
+}
+.buttonRight{
+    height: 20px;
+}
+#SButton{
+    text-align:center;
+    height: 30px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.imageDiv{
+    color: blue;
+    margin-left: 810px;
+    margin-top: 0px;
+}
+.firstbox{
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+    display: flex;
+    width: 1000px;
+    height: 55px;
+
+}
+.div2{
+    display: flex;
+    padding-left: 30px;
+    width: 1000px;
+    height: 55px;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+.searchbox{
+    padding-top: 10px;
+    padding-left: 70px;
+}
+.searchbox2{
+    padding-top: 10px;
+    padding-left: 17px;
+}
+.searchbox3{
+    padding-top: 10px;
+    padding-left: 60px;
+
+}
+.searchbox4{
+    padding-top: 10px;
+    padding-left: 75px;
+}
+.div3{
+    display: flex;
+    padding-left: 30px;
+    width: 1000px;
+    height: 55px;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+.div4{
+    display: flex;
+    padding-left: 30px;
+    width: 1000px;
+    height: 55px;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+.div5{
+    display: flex;
+    padding-left: 30px;
+    width: 1000px;
+    height: 55px;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+.righttext{
+    color: gray;
+}
+.lefttext{
+    color: #3c4043;
+}
+.advancedButton{
+width: 1000px;
+}
+.blue-button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(84, 84, 216);
+    float: right;
+    border-radius: 5px;
+}
